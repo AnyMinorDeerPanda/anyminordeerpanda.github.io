@@ -26,7 +26,6 @@
     }
     
     .conbox {
-        transition-duration: 600ms;
         background-color: #36393e;
         border-radius: 20px;
         margin-right: auto;
@@ -36,7 +35,6 @@
     }
 
     .prj {
-        transition-duration: 600ms;
         background-color: #282b30;
         border-radius: 20px;
         margin-right: auto;
