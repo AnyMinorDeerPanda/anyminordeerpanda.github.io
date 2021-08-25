@@ -6,8 +6,8 @@
     <script>
         const queryString = window.location.search;
         const urlParams = new URLSearchParams(queryString);
-        const user = urlParams.get('refer')
-        if (user) {console.log("You were sent here by "+ user);}
+        const ref = urlParams.get('ref')
+        console.log("You were sent here by "+ ref);
     </script>
     
     <meta property="og:title" content="Xtract's Space">
