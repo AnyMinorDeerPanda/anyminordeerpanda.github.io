@@ -1,11 +1,16 @@
 <html><head>
-    <link href="https://www.xtract.space/style.css" rel="stylesheet" type="text/css" media="all">
     <link rel="icon" type="image/png" href="https://avatars.githubusercontent.com/u/41217280?s=60&amp;v=4">
     <title>Xtract's Space</title>
     
     <meta property="og:title" content="Xtract's Space">
     <meta property="og:description" content="Check out Xtract's GitHub Projects">
     <meta property="og:image" content="https://www.xtract.space/images/banner.png">
+    
+    <script>
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        window.location.replace("http://www.xtract.space/projects"+ urlParams);
+    </script>
     </head><body>
-    <meta http-equiv = "refresh" content = "0; url = https://www.xtract.space/projects" />
+    <p style="font-size: 50px;">Redirecting...</p>
 </body></html>
