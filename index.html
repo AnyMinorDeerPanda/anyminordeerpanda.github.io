@@ -9,7 +9,12 @@
     <script>
         const queryString = window.location.search;
         const urlParams = new URLSearchParams(queryString);
-        window.location.replace("http://www.xtract.space/projects/");
+        const url = urlParams.get('url')
+        if (url) {
+            window.location.replace(url);
+        } else {
+            window.location.replace("http://www.xtract.space/projects/");
+        }
     </script>
     </head><body>
     <p style="font-size: 50px;">Redirecting...</p>
