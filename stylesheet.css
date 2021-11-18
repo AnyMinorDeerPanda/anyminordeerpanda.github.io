@@ -1,34 +1,39 @@
 body {
-background-color: #FF0040;
-text-align: center;
+  background-color: #FF0040;
+  text-align: center;
 }
 
 div {
-margin: 25px;
-padding: 50px;
-background-color: #FF0060;
-border-radius: 5px;
-box-shadow: 0 25px 25px #000000AA;
+  margin: 25px;
+  padding: 50px;
+  background-color: #FF0060;
+  border-radius: 5px;
+  box-shadow: 0 25px 25px #000000AA;
 }
 
 p {
-font-family: Comic Sans MS;
-font-size: 100px;
-color: white;
-margin: 0;
+  font-family: Comic Sans MS;
+  font-size: 100px;
+  color: white;
+  margin: 0;
 }
 
 p1 {
-font-family: Comic Sans MS;
-font-size: 50px;
-color: white;
-margin: 0;
+  font-family: Comic Sans MS;
+  font-size: 50px;
+  color: white;
+  margin: 0;
 }
 
 a {
-font-family: Comic Sans MS;
-font-style: italic;
-font-size: 50px;
-color: #EEEEEE;
-margin: 0;
+  text-decoration: none;
+  font-family: Comic Sans MS;
+  font-style: italic;
+  font-size: 50px;
+  color: #EEEEEE;
+  margin: 0;
+}
+
+a:hover {
+  text-decoration: underline;
 }
